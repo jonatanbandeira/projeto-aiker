@@ -1,0 +1,153 @@
+@charset "UTF-8";
+html,
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.9;
+    color: #757575;
+    text-align: left;
+    background-color: #fff;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    min-height: 40px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    z-index: 2;
+}
+
+header p {
+    width: 70%;
+    margin: 8em auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: #323d47;
+    text-align: left;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.conf {
+    background-color: rgb(238, 255, 0);
+    background-size: cover;
+    text-align: left;
+    height: 700px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.confdev {
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+    height: 700px;
+    width: 100%;
+}
+
+.content {
+    background-color: #fff;
+    background-size: cover;
+    text-align: right;
+    height: 700px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.contentdev {
+    background: #fff;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+}
+
+.blanc {
+    float: right;
+    margin: 50px 170px auto;
+}
+
+.gradient {
+    float: left;
+    margin: 80px 170px auto;
+}
+
+.lit {
+    float: center;
+    margin: 80px 170px auto;
+}
+
+.footer {
+    background: #323d47;
+    color: #ebebeb;
+    padding: 20px 10px auto;
+    height: 150px;
+    text-align: center;
+    font-weight: 100px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 80px;
+}
+
+.footer {
+    background: #323d47;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* Estilo dos icons redondos*/
+
+.circle-icons {
+    padding: 8px;
+    font-size: 16px;
+    width: 40px;
+    margin: 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80%;
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.circle-icons:hover {
+    background: #e2df15ef;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9;
+    transition: 1s;
+}
