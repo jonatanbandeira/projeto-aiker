@@ -1,51 +1,127 @@
 @charset "UTF-8";
+body,
 html,
+.capa {
+    height: 100%;
+}
+
 body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    line-height: 1.9;
-    color: #757575;
-    text-align: left;
-    background-color: #fff;
+    background: url('../img/PinotNoir.jpg');
+    background-attachment: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
-.logo {
-    text-align: left;
+.capa {
+    background: rgba(0, 0, 0, 0.5);
 }
 
-.img-fluid {
-    width: 100%;
-    height: 100vh;
+
+/*Barra de navegação*/
+
+.img-logo {
+    height: 30px;
+    width: 70px;
+    display: block;
+    background: url('../img/logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
 }
 
-header {
-    min-height: 40px;
+.rod {
+    background: black;
+    color: white;
+}
+
+.img-footer {
+    height: 40px;
+    width: 132px;
+    margin-top: 10px;
+    display: inline-block;
+    background: url('imagens/logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente {
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 15px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+footer .nav a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+footer .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+
+.voltar-ao-topo {
+    border: solid rgb(155, 240, 225);
     position: fixed;
+    bottom: 1em;
+    right: 1em;
+    color: rgb(155, 240, 225);
+    padding: 1em;
+    display: none;
     text-align: center;
-    top: 0;
-    right: 0;
-    left: 0;
-    background: #000;
-    z-index: 2;
+    padding: .1em .2em .1em .2em;
+    outline: none;
+    z-index: 1;
 }
 
-header p {
-    width: 70%;
-    margin: 8em auto;
-    font-size: 20px;
-    line-height: 30px;
-    color: #323d47;
-    text-align: left;
+.voltar-ao-topo:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*Imagem da capa*/
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 36px;
+}
+
+
+/*botão*/
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-branco {
+    border: 2px solid rgb(41, 52, 155);
+}
+
+.btn-branco:hover {
+    background: rgb(41, 52, 155);
+    color: black;
 }
 
 .noPadding {
     padding: 0 !important;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
 }
 
 .details {
@@ -60,16 +136,14 @@ header p {
     background-color: #d3d3d3;
     background-size: cover;
     text-align: left;
-    height: 700px;
-    width: 100%;
     font-size: 20px;
+    height: 700px;
 }
 
 .confdev {
     background-color: #d3d3d3;
     text-align: center;
     height: 700px;
-    width: 100%;
 }
 
 .content {
@@ -78,14 +152,12 @@ header p {
     text-align: right;
     height: 700px;
     font-size: 20px;
-    width: 100%;
 }
 
 .contentdev {
     background: #fff;
     text-align: center;
     height: 700px;
-    width: 100%;
 }
 
 .blanc {
@@ -112,32 +184,6 @@ header p {
     font-weight: 100px;
 }
 
-nav {
-    position: fixed;
-    width: 100%;
-}
-
-nav ul {
-    list-style: none;
-    background: rgba(0, 0, 0, 0);
-    overflow: hidden;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    transition: 1s;
-}
-
-nav.black ul {
-    background: #000;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 80px;
-}
-
 .footer {
     background: #323d47;
     color: #ebebeb;
@@ -162,7 +208,7 @@ nav ul li a {
 }
 
 .circle-icons:hover {
-    background: #e2df15ef;
+    background: #4b6cb7;
     text-decoration: none;
     color: #fff;
     opacity: 0.9;
