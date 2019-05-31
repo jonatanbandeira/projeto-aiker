@@ -64,6 +64,10 @@ footer .nav a:hover {
     background: none;
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 .voltar-ao-topo {
     border: solid rgb(155, 240, 225);
     position: fixed;
@@ -124,17 +128,8 @@ footer .nav a:hover {
     padding: 0 !important;
 }
 
-.details {
-    background-color: #fff;
-    text-align: center;
-    height: 700px;
-    width: 100%;
-    font-size: 20px;
-}
-
 .conf {
     background-color: #d3d3d3;
-    background-size: cover;
     text-align: left;
     font-size: 20px;
     height: 700px;
@@ -144,11 +139,11 @@ footer .nav a:hover {
     background-color: #d3d3d3;
     text-align: center;
     height: 700px;
+    margin: 0;
 }
 
 .content {
     background-color: #fff;
-    background-size: cover;
     text-align: right;
     height: 700px;
     font-size: 20px;
@@ -161,12 +156,12 @@ footer .nav a:hover {
 }
 
 .blanc {
-    float: right;
+    float: center;
     margin: 50px 170px auto;
 }
 
 .gradient {
-    float: left;
+    float: center;
     margin: 80px 170px auto;
 }
 
@@ -178,16 +173,8 @@ footer .nav a:hover {
 .footer {
     background: #323d47;
     color: #ebebeb;
-    padding: 20px 10px auto;
-    height: 150px;
-    text-align: center;
-    font-weight: 100px;
-}
-
-.footer {
-    background: #323d47;
-    color: #ebebeb;
     padding: 20px 0;
+    height: 150px;
     text-align: center;
     font-weight: 100;
 }
@@ -225,7 +212,7 @@ footer .nav a:hover {
     width: 200px;
     padding: 25px;
     margin: 1px 1px 0 0;
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(100);
 }
 
 .row {
@@ -233,7 +220,7 @@ footer .nav a:hover {
 }
 
 .circle img:hover {
-    -webkit-filter: grayscale(0%);
+    filter: grayscale(0);
     transition: 1s;
 }
 
