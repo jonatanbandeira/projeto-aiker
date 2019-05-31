@@ -60,7 +60,7 @@ footer .nav a {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 footer .nav a:hover {
-    color: #0e2ac9;
+    color: #607dc0;
     background: none;
 }
 
@@ -195,7 +195,7 @@ footer .nav a:hover {
 }
 
 .circle-icons:hover {
-    background: #3f71e6;
+    background: #607dc0;
     text-decoration: none;
     color: #fff;
     opacity: 0.9;
