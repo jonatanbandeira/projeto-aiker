@@ -132,42 +132,41 @@ footer .nav a:hover {
     background-color: #d3d3d3;
     text-align: left;
     font-size: 20px;
-    height: 700px;
+    height: 750px;
 }
 
 .confdev {
     background-color: #d3d3d3;
     text-align: center;
-    height: 700px;
-    margin: 0;
+    height: 750px;
 }
 
 .content {
     background-color: #fff;
     text-align: right;
-    height: 700px;
+    height: 750px;
     font-size: 20px;
 }
 
 .contentdev {
     background: #fff;
     text-align: center;
-    height: 700px;
+    height: 750px;
 }
 
 .blanc {
     float: center;
-    margin: 50px 170px auto;
+    margin: 80px 120px auto;
 }
 
 .gradient {
     float: center;
-    margin: 80px 170px auto;
+    margin: 80px 120px auto;
 }
 
 .lit {
     float: center;
-    margin: 80px 170px auto;
+    margin: 80px 120px auto;
 }
 
 .footer {
