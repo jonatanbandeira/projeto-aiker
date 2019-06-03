@@ -7,7 +7,7 @@ html,
 }
 
 body {
-    background: url('../img/SeaBlue.jpg');
+    background-image: url("../img/Abstract-Envelope.svg");
     background-attachment: cover;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
