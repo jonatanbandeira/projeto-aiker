@@ -139,6 +139,8 @@ footer .nav a:hover {
     background-color: #d3d3d3;
     text-align: center;
     height: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
@@ -152,21 +154,23 @@ footer .nav a:hover {
     background: #fff;
     text-align: center;
     height: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blanc {
     float: center;
-    margin: 80px 60px auto;
+    margin: 20px auto;
 }
 
 .gradient {
     float: center;
-    margin: 80px 60px auto;
+    margin: 20px auto;
 }
 
 .lit {
     float: center;
-    margin: 80px 60px auto;
+    margin: 20px auto;
 }
 
 .footer {
